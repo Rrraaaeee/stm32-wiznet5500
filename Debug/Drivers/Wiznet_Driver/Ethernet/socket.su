@@ -1,0 +1,12 @@
+socket.c:82:8:wiz_socket	32	static
+socket.c:150:8:wiz_close	16	static
+socket.c:166:8:wiz_listen	16	static
+socket.c:186:8:wiz_connect	16	static
+socket.c:219:8:wiz_disconnect	16	static
+socket.c:239:10:wiz_send	32	static
+socket.c:298:10:wiz_recv	40	static
+socket.c:339:9:wiz_sendto	40	static
+socket.c:404:9:wiz_recvfrom	48	static
+socket.c:522:9:wiz_ctlsocket	24	static
+socket.c:562:9:wiz_setsockopt	16	static
+socket.c:615:9:wiz_getsockopt	24	static

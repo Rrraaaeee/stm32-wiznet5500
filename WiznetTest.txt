@@ -1,0 +1,62 @@
+Configuration	WiznetTest
+STM32CubeMX 	6.3.0
+Date	08/21/2021
+MCU	STM32F072RBTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SPI2	Full-Duplex Master	SPI2_MISO	PC2
+SPI2	Full-Duplex Master	SPI2_MOSI	PC3
+SPI2	Full-Duplex Master	SPI2_SCK	PB10
+SPI2	Hardware NSS Output Signal	SPI2_NSS	PB12
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+10	PC2	SPI2_MISO	
+11	PC3	SPI2_MOSI	
+29	PB10	SPI2_SCK	
+33	PB12	SPI2_NSS	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SPI2	Full-Duplex Master	SPI2_MISO	PC2
+SPI2	Full-Duplex Master	SPI2_MOSI	PC3
+SPI2	Full-Duplex Master	SPI2_SCK	PB10
+SPI2	Hardware NSS Output Signal	SPI2_NSS	PB12
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+10	PC2	SPI2_MISO	
+11	PC3	SPI2_MOSI	
+29	PB10	SPI2_SCK	
+33	PB12	SPI2_NSS	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : WiznetTest
+Project Folder : /Users/raeee/STM32CubeIDE/BBAUV/WiznetTest
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F0 V1.11.2
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
