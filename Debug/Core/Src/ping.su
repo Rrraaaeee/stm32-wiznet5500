@@ -1,0 +1,6 @@
+ping.c:12:9:ping_auto	32	static
+ping.c:79:9:ping_count	32	static
+ping.c:155:9:ping_request	40	static
+ping.c:186:9:ping_reply	240	static
+ping.c:264:10:checksum	40	static
+ping.c:292:10:htons	24	static
